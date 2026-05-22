@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# Virtual environments
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment variables
+.env
+.env.local
+
+# Outputs (keep only the saved models for reference)
+*.pkl
+*.joblib
+*.h5
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Keep only these files
+!ml_pipeline_101.ipynb
+!ml_pipeline_summary.py
+!iris_dataset.csv
+!README.md
+!requirements.txt
+!data_description.txt
+!.gitignore
